@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ilabels-api",
+  "main": "api-worker.js",
+  "compatibility_date": "2026-06-12",
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "fc444e5432b044eb9882eae348ef0467"
+    }
+  ],
+  "vars": {
+    "SITE_DOMAIN": "ilabels.iosflowzy.workers.dev",
+    "API_DOMAIN": "ilabels-api.iosflowzy.workers.dev",
+    "PLISIO_SUCCESS_URL": "ilabels.iosflowzy.workers.dev/success.html"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
